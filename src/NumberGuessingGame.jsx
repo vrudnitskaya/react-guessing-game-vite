@@ -9,9 +9,7 @@ import GuessMessage from "./GuessMessage";
  * Returns a random integer number from 1-100 inclusive
  */
 function getRandomNumber() {
-  let num = Math.floor(Math.random() * 100) + 1;
-  console.log(num);
-  return num;
+  return Math.floor(Math.random() * 100) + 1;
 }
 
 const MAX_ATTEMPTS = 5;
